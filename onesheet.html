@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio - Joseph Guidi</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo"><a href="#profile">Joseph Guidi</a></div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo"><a href="index.html">Joseph Guidi</a></div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li>
+            <a href="#experience" onclick="toggleMenu()">Experience</a>
+          </li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+     <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile_pic.jpg" alt="Joseph Guidi profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Joseph Guidi</h1>
+        <p class="section__text__p2">Sports Data Analytics-Focused Professional</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Resume Joseph Guidi.pdf')"
+          >
+            Download Resume
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='contact.html'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/LinkedIn_icon.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/in/joe-guidi'"
+          />
+          <img
+            src="./assets/Github_icon.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/JMGuidi1'"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/About_me_pic.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>Portfolio Projects<br>Data Analysis | Data Engineering | Data Science</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.S. Bachelors Degree<br />Major: Computer Science | Minor: Data Science</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <ul>
+            <li><p>
+              I'm a data-driven problem solver with a background in computer
+              science and data science. I enjoy building analytics tools,
+              automating workflows, and working with real-world
+              datasets—especially in sports, business, and operations.</p></li>
+              <li><P> I
+              graduated from Ithaca College with a B.S. in Computer Science and
+              a minor in Data Science, and I’m currently pursuing advanced data
+              science coursework while working in an analytics-focused role. </P></li>
+            <li><p>My
+              long-term goal is to work in a data or analytics role where I can
+              turn complex information into actionable insights.
+            </p></li>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Data</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>R</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Excel</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>API</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tableau/ Power BI</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+        <p class="title">Professional Experience</p>
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">
+              Accounts Receivable Representative
+            </h2>
+            <div class="article-container">
+              <div>
+                <h3>Statler Hotel at Cornell University</h3>
+                <p>
+                  Managed financial data, reconciled accounts, and supported
+                  reporting processes while working closely with internal
+                  stakeholders.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Director of Data Analytics</h2>
+            <div class="article-container">
+              <div>
+                <h3>Data Mound - ONSL Pilot</h3>
+                <p>
+                  Led analytics initiatives, worked with baseball data, and
+                  created reports to support decision-making across the league.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">
+              Teaching Assistant – Statistics
+            </h2>
+            <div class="article-container">
+              <div>
+                <h3>Ithaca College</h3>
+                <p>
+                  Assisted students with statistical concepts, R programming,
+                  and data analysis techniques.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/graph.png"
+                alt="Fitness Tracker & Analytics Dashboard"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Fitness Tracker & Analytics Dashboard
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="
+                  location.href =
+                    'https://docs.google.com/spreadsheets/d/19mtZzhE31lge6hZduUqeaomxZsVH_X6XhfxfBKF5K8w/edit?usp=sharing'
+                "
+              >
+                Access Sheet
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Top 25 Showdown icon.png"
+                alt="Top 25 Showdown"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Top 25 Showdown</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="
+                  location.href =
+                    'https://github.com/JMGuidi1/College-Fantasy-React'
+                "
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="
+                  location.href = 'https://www.youtube.com/watch?v=gH1vUX6rids'
+                "
+              >
+                Figma Demo
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="
+                  location.href = 'https://www.youtube.com/watch?v=KpX0J7qturQ'
+                "
+              >
+                React Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/basketball-men.avif"
+                alt="NCAA Prediction Model"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              NCAA Prediction Model
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href = './assets/NCAA Bracket Report.pdf'"
+              >
+                View Report
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/USA flag.avif"
+                alt="U.S. Election Data Warehouse & Analysis"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              U.S. Election Data Warehouse & Analysis
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="
+                  location.href = './assets/election data in the us 3x2.pdf'
+                "
+              >
+                View Report
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <p class="section__text__p1">
+        Feel free to reach out for opportunities, collaborations, or just to
+        connect.
+      </p>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:JMGuidi1@gmail.com">JMGuidi1@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/LinkedIn_icon.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/joe-guidi">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/Github_icon.png"
+            alt="Github_icon icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.GitHub.com/JMGuidi1">Github</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links">
+          <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="index.html">RETURN</a></li>
+        </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169 2026 Joseph Guidi. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

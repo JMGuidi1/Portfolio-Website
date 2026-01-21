@@ -35,129 +35,129 @@
       </div>
     </nav>
 
-    <section class="page-section">
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
-
-      <div class="project-item">
-        <h3>Fitness Tracker & Analytics Dashboard</h3>
-        <p>
-          A personal fitness tracking system built using Google Sheets to log
-          workouts, body metrics, and performance trends over time. The tracker
-          supports structured data entry and basic analytics for consistency and
-          progress monitoring.
-        </p>
-        <div class="btn-container">
-          <iframe
-            src="https://docs.google.com/spreadsheets/d/19mtZzhE31lge6hZduUqeaomxZsVH_X6XhfxfBKF5K8w/edit?usp=sharing"
-            width="100%"
-            height="500"
-            style="border: 1px solid #ddd; border-radius: 12px"
-            loading="lazy"
-          ></iframe>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/graph.png"
+                alt="Fitness Tracker & Analytics Dashboard"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Fitness Tracker & Analytics Dashboard
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="
+                  location.href =
+                    'https://docs.google.com/spreadsheets/d/19mtZzhE31lge6hZduUqeaomxZsVH_X6XhfxfBKF5K8w/edit?usp=sharing'
+                "
+              >
+                Access Sheet
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Top 25 Showdown icon.png"
+                alt="Top 25 Showdown"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Top 25 Showdown</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="
+                  location.href =
+                    'https://github.com/JMGuidi1/College-Fantasy-React'
+                "
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="
+                  location.href = 'https://www.youtube.com/watch?v=gH1vUX6rids'
+                "
+              >
+                Figma Demo
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="
+                  location.href = 'https://www.youtube.com/watch?v=KpX0J7qturQ'
+                "
+              >
+                React Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/basketball-men.avif"
+                alt="NCAA Prediction Model"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              NCAA Prediction Model
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href = './assets/NCAA Bracket Report.pdf'"
+              >
+                View Report
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/USA flag.avif"
+                alt="U.S. Election Data Warehouse & Analysis"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              U.S. Election Data Warehouse & Analysis
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="
+                  location.href = './assets/election data in the us 3x2.pdf'
+                "
+              >
+                View Report
+              </button>
+            </div>
+          </div>
         </div>
-      </div>
-
-      <div class="project-item">
-        <h3>Top 25 Showdown</h3>
-        <p>
-          A fantasy college football web application built with React that
-          allows users to compare, rank, and evaluate top teams through
-          interactive matchups and visual comparisons.
-        </p>
-
-        <p>
-          <strong>Tools & Concepts:</strong>
-          React, JavaScript, UI state management, data-driven comparisons
-        </p>
-        <br />
-        <div class="btn-container">
-          <a
-            href="https://www.youtube.com/watch?v=gH1vUX6rids"
-            target="_blank"
-            class="btn btn-color-2"
-          >
-            Figma Demo Video
-          </a>
-
-          <a
-            href="https://www.youtube.com/watch?v=KpX0J7qturQ"
-            target="_blank"
-            class="btn btn-color-2"
-          >
-            React Demo Video
-          </a>
-
-          <a
-            href="./assets/Top 25 Showdown.pdf"
-            target="_blank"
-            class="btn btn-color-2"
-          >
-            Project PDF
-          </a>
-        </div>
-      </div>
-
-      <div class="project-item">
-        <h3>NCAA Prediction Model</h3>
-        <p>
-          A March Madness bracket predictor built in Python using statistical
-          modeling and historical data.
-        </p>
-        <br />
-        <div class="btn-container">
-          <a
-            href="./assets/NCAA Bracket Report.pdf"
-            target="_blank"
-            class="btn btn-color-2"
-          >
-            View Project Overview
-          </a>
-        </div>
-      </div>
-
-      <div class="project-item">
-        <h3>U.S. Election Data Warehouse & Analysis</h3>
-        <p>
-          Designed and implemented a relational database to centralize
-          historical U.S. election data that is typically fragmented across
-          multiple sources. The database consists of 9 normalized tables
-          containing county-level voting data, totaling millions of records.
-        </p>
-
-        <p>
-          The project enables detailed analysis of voter participation, party
-          dominance by county, and election outcomes across multiple races.
-          Visualizations highlight voter concentration, county-level winners,
-          and popular vote distributions.
-        </p>
-
-        <p>
-          <strong>Tools & Concepts:</strong>
-          SQL, database schema design, large-scale datasets, data normalization,
-          aggregation queries, and election analytics.
-        </p>
-
-        <br />
-        <div class="btn-container">
-          <a
-            href="./assets/Election Data in the US 3x2.pdf"
-            target="_blank"
-            class="btn btn-color-2"
-          >
-            View Project Overview
-          </a>
-        </div>
-      </div>
-
-      <div class="project-item">
-        <h3>WHOOP Data Pipeline (In Progress)</h3>
-        <p>
-          Extracted, cleaned, and stored wearable fitness data using APIs,
-          Python, and structured data storage.
-        </p>
       </div>
     </section>
-
+<footer>
+      <nav>
+        <div class="nav-links">
+          <ul class="nav-links">
+          <li><a href="aboutme.html">About</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169 2026 Joseph Guidi. All Rights Reserved.</p>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
