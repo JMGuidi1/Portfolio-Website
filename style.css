@@ -139,10 +139,8 @@ a:hover {
 /* Sections*/
 section {
   padding-top: 4vh;
-  height: 96vh;
   margin: 0 10rem;
   box-sizing: border-box;
-  min-height: fit-content;
 }
 
 .section-container {
@@ -227,17 +225,17 @@ section {
 }
 
 .btn-color-1,
-btn-color-2 {
+.btn-color-2 {
   border: rgb(53, 53, 53) 0.1rem solid;
 }
 
 .btn-color-1:hover,
-btn-color-2:hover {
+.btn-color-2:hover {
   cursor: pointer;
 }
 
 .btn-color-1,
-btn-color-2:hover {
+.btn-color-2:hover {
   background: rgb(53, 53, 53);
   color: white;
 }
@@ -256,4 +254,80 @@ btn-color-2:hover {
 
 .btn-container {
   gap: 1rem;
+}
+
+/* ====== PAGE SECTIONS (About, Experience, Projects, Contact) ====== */
+
+.page-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+}
+
+/* Text blocks */
+.page-text {
+  max-width: 800px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Experience & Project cards */
+.experience-item,
+.project-item {
+  max-width: 800px;
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  border: 1px solid rgb(220, 220, 220);
+  text-align: left;
+}
+
+.experience-item h3,
+.project-item h3 {
+  margin-bottom: 0.5rem;
+}
+
+.experience-meta {
+  font-size: 0.9rem;
+  color: rgb(120, 120, 120);
+  margin-bottom: 0.75rem;
+}
+
+/* Contact section */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  font-size: 1.1rem;
+}
+
+.project-item iframe {
+  margin-top: 1rem;
+}
+
+/* ===== PROJECT CARD BUTTONS ===== */
+
+.project-item .btn-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: flex-start;
+}
+
+.project-item .btn {
+  width: auto;
+  padding: 0.75rem 1.25rem;
+}
+
+.project-item {
+  transition:
+    transform 200ms ease,
+    box-shadow 200ms ease;
+}
+
+.project-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 }
